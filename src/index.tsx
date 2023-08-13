@@ -1,19 +1,43 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './i18n';
+import { router } from './router';
+import { RouterProvider } from 'react-router-dom';
+import {PersistGate} from "redux-persist/integration/react";
+import { Alert, ChakraProvider } from '@chakra-ui/react';
+import { extendTheme } from '@chakra-ui/react';
+import themeSettings from './theme';
+import {
+    ThemeProvider,
+    theme,
+    ColorModeProvider,
+    CSSReset
+} from '@chakra-ui/react';
+import { store, persistor } from './store';
+import { Provider as StoreProvider } from 'react-redux';
+
+const currentTheme = extendTheme(themeSettings);
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+const toastOptions = { defaultOptions: { render: Alert } } as any;
+
 root.render(
   <React.StrictMode>
-    <App />
+      <StoreProvider store={store}>
+          <PersistGate persistor={persistor}>
+              <ChakraProvider theme={currentTheme} toastOptions={toastOptions}>
+                  <ThemeProvider theme={theme}>
+                      <ColorModeProvider>
+                          <Suspense>
+                              <RouterProvider router={router} />
+                          </Suspense>
+                      </ColorModeProvider>
+                  </ThemeProvider>
+              </ChakraProvider>
+          </PersistGate>
+      </StoreProvider>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

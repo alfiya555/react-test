@@ -1,0 +1,121 @@
+const styledTheme = {
+  colors: {
+    mainBackground: '#FAFAFA',
+    mainAccent: '#0070BA',
+    mainAccentHover: 'rgba(3, 120, 227, 0.75)',
+    colorForeground: '#0E113C',
+    colorForeground4: '#E9F2F4',
+    colorForeground2: '#6B7580',
+    colorForeground3: '#C1CCD3',
+    statusError: '#F93232',
+    statusSuccess: '#1FBA66',
+    statusValidation: '#E9A216',
+    statusSuccessBackground: '#E9F9F0',
+    statusInfoBackground: '#F2F2FE',
+    statusErrorBackground: '#FFEBEB',
+    statusValidationBackground: '#FFF8EB',
+    statusInfo: '#7C7AEE',
+    colorContent2: '#F7FAFD',
+  },
+  fonts: {
+    heading: `'Inter', sans-serif`,
+    body: `'Inter', sans-serif`,
+  },
+  shadows: {
+    other: '0px 1px 5px rgba(51, 58, 59, 0.14)',
+    main: '0px 1px 5px rgba(51, 58, 59, 0.08)',
+  },
+  textStyles: {
+    lineSemibold: {
+      fontSize: '15px',
+      fontWeight: '600',
+      lineHeight: '20px',
+      letterSpacing: '-0.016em',
+    },
+    lineRegular: {
+      fontSize: '15px',
+      fontWeight: '400',
+      lineHeight: '20px',
+      letterSpacing: '-0.016em',
+    },
+    lineMedium: {
+      fontSize: '15px',
+      fontWeight: '500',
+      lineHeight: '20px',
+      letterSpacing: '-0.016em',
+    },
+    labelRegular: {
+      fontSize: '13px',
+      fontWeight: '400',
+      lineHeight: '16px',
+      letterSpacing: '-0.006em',
+    },
+    labelMedium: {
+      fontSize: '13px',
+      fontWeight: '500',
+      lineHeight: '16px',
+      letterSpacing: '-0.006em',
+    },
+    labelSemibold: {
+      fontSize: '13px',
+      fontWeight: '600',
+      lineHeight: '16px',
+      letterSpacing: '-0.006em',
+    },
+    toolSemibold: {
+      fontWeight: '600',
+      fontSize: '10px',
+      lineHeight: '12px',
+      letterSpacing: '0.012em',
+    },
+    toolMedium: {
+      fontWeight: '500',
+      fontSize: '10px',
+      lineHeight: '12px',
+      letterSpacing: '0.012em',
+    },
+    toolRegular: {
+      fontWeight: '400',
+      fontSize: '10px',
+      lineHeight: '12px',
+      letterSpacing: '0.012em',
+    },
+    h5: {
+      fontWeight: '600',
+      fontSize: '24px',
+      lineHeight: '32px',
+      letterSpacing: '0.015em',
+    },
+    h6Sub: {
+      fontWeight: '600',
+      fontSize: '20px',
+      lineHeight: '25px',
+      letterSpacing: '-0.025em',
+    },
+    bodySemibold: {
+      fontWeight: '600',
+      fontSize: '17px',
+      lineHeight: '22px',
+      letterSpacing: '-0.026em',
+    },
+    bodyMedium: {
+      fontWeight: '500',
+      fontSize: '17px',
+      lineHeight: '22px',
+      letterSpacing: '-0.026em',
+    },
+    bodyRegular: {
+      fontWeight: '400',
+      fontSize: '17px',
+      lineHeight: '22px',
+      letterSpacing: '-0.026em',
+    },
+    tableHeader: {
+      fontWeight: '600',
+      fontSize: '32px',
+      lineHeight: '44px',
+    },
+  },
+};
+
+export default styledTheme;
