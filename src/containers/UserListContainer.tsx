@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import { setFormValues, setImage } from "../store/actions";
-import UserList from '../components/UserForm';
+import UserList from '../pages/UserForm';
 
 const mapStateToProps = (state: any) => ({
     formValues: state.formValues,

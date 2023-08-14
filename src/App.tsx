@@ -1,6 +1,6 @@
 import React, {useCallback, useState} from 'react';
-import Navigation from "./components/Navigation";
-import Header from "./components/Header";
+import Navigation from "./components/navigation/Navigation";
+import Header from "./components/header/Header";
 
 function App() {
     const [isSmallNav, setIsSmallNav] = useState(false);

@@ -11,7 +11,7 @@ import {
 import {useRef, useState} from "react";
 import {MdOutlineSettings, MdSunny, MdWbCloudy} from "react-icons/md";
 import {useTranslation} from "react-i18next";
-import {Themes} from "../constants/themes";
+import {Themes} from "../../constants/themes";
 
 function SettingsBtn() {
     const {isOpen, onOpen, onClose} = useDisclosure();

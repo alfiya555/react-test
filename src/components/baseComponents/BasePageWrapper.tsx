@@ -1,6 +1,6 @@
 import React, {useCallback, useState, Suspense} from 'react';
-import Navigation from "./Navigation";
-import Header from "./Header";
+import Navigation from "../navigation/Navigation";
+import Header from "../header/Header";
 import { Outlet } from 'react-router-dom';
 import {Box, Button, Spinner} from "@chakra-ui/react";
 import {ChevronLeftIcon, ChevronRightIcon} from "@chakra-ui/icons";
@@ -37,7 +37,7 @@ function BasePageWrapper() {
         <Suspense fallback={<Box mb={6}>
             <Spinner thickness='4px' speed='0.65s' emptyColor='#eef4ff' color='mainAccent' size='xl' />
         </Box>}>
-            <Box position='fixed' left={isSmallNav ? '88px' : '280px'} top='70px'>
+            <Box position='fixed' left={isSmallNav ? '88px' : '280px'} top='70px' width={`calc(100vw - ${isSmallNav ? '88px' : '280px'})`} height={'calc(100vh - 70px)'}>
                 <Outlet />
             </Box>
         </Suspense>

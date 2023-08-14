@@ -2,9 +2,9 @@ import { lazy } from 'react';
 import { Navigate, createBrowserRouter } from 'react-router-dom';
 
 const MainPage = lazy(() => import('../pages/MainPage'));
-const BasePageWrapper = lazy(() => import('../components/BasePageWrapper'));
-const TextWrapper = lazy(() => import('../components/TextWrapper'));
-const UserForm = lazy(() => import('../components/UserForm'));
+const BasePageWrapper = lazy(() => import('../components/baseComponents/BasePageWrapper'));
+const TextWrapper = lazy(() => import('../pages/TextWrapper'));
+const UserForm = lazy(() => import('../pages/UserForm'));
 const UserFormContainer = lazy(() => import('../containers/UserListContainer'));
 
 const mockItems = ['app', 'eCommerce', 'analytics', 'banking', 'booking', 'file', 'mail', 'chat', 'calendar', 'canban'].map((item) => ({

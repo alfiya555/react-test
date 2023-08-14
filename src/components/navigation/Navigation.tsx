@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { Box, Flex, Button, Image } from '@chakra-ui/react';
 import { ChevronRightIcon, ChevronLeftIcon } from '@chakra-ui/icons';
-import { navigationItems } from "../constants/navigationItems";
+import { navigationItems } from "../../constants/navigationItems";
 import { useNavigate, useLocation } from 'react-router-dom';
 import {useCallback, useMemo} from "react";
 import NavigationItem from "./NavigationItem";
