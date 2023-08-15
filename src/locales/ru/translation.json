@@ -35,5 +35,11 @@
     "about": "Обо мне",
     "publicProfile": "Публичный профиль",
     "deleteUser": "Удалить пользователя"
-  }
+  },
+  "Total Active Users": "Всего активных пользователей",
+  "Total Installed": "Всего загружено",
+  "Total Downloads": "Всего скачиваний",
+  "Current Download": "Текущие загрузки",
+  "Area Installed": "Распределение по странам",
+  "New Invoice": "Новые записи"
 }

@@ -19,7 +19,7 @@ const MainPage = () => {
                 <SmallChart title={t('Total Installed')} percentage={0.2} amount={'4,876'} color={'blue'} />
             </Flex>
             <Flex width={'calc(33% - 12px)'}>
-                <SmallChart title={t('Total Active Users')} percentage={-0.1} amount={'678'} color={'yellow'} />
+                <SmallChart title={t('Total Downloads')} percentage={-0.1} amount={'678'} color={'yellow'} />
             </Flex>
             <Flex>
                 <DonutChart title={t('Current Download')} />

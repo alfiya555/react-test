@@ -35,5 +35,11 @@
     "about": "à propos",
     "publicProfile": "Public profil",
     "deleteUser": "Delete user"
-  }
+  },
+  "Total Active Users": "Total Active Users",
+  "Total Installed": "Total Installed",
+  "Total Downloads": "Total Downloads",
+  "Current Download": "Current Download",
+  "Area Installed": "Area Installed",
+  "New Invoice": "New Invoice"
 }
