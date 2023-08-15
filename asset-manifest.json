@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.ea5a282a.css",
+    "main.js": "/react-test/static/js/main.839a2b1c.js",
+    "static/js/507.90f18315.chunk.js": "/react-test/static/js/507.90f18315.chunk.js",
+    "static/js/690.2e67fa1b.chunk.js": "/react-test/static/js/690.2e67fa1b.chunk.js",
+    "static/js/288.71728584.chunk.js": "/react-test/static/js/288.71728584.chunk.js",
+    "static/js/575.c4dca549.chunk.js": "/react-test/static/js/575.c4dca549.chunk.js",
+    "static/js/324.e421c0fb.chunk.js": "/react-test/static/js/324.e421c0fb.chunk.js",
+    "static/js/768.4ba1c378.chunk.js": "/react-test/static/js/768.4ba1c378.chunk.js",
+    "static/js/360.0c09ec28.chunk.js": "/react-test/static/js/360.0c09ec28.chunk.js",
+    "static/js/274.6b598e7e.chunk.js": "/react-test/static/js/274.6b598e7e.chunk.js",
+    "static/js/581.5962cb1f.chunk.js": "/react-test/static/js/581.5962cb1f.chunk.js",
+    "static/js/393.32318207.chunk.js": "/react-test/static/js/393.32318207.chunk.js",
+    "index.html": "/react-test/index.html",
+    "static/media/getFetch.cjs": "/react-test/static/media/getFetch.40f37ddea2378391108f.cjs",
+    "main.ea5a282a.css.map": "/react-test/static/css/main.ea5a282a.css.map",
+    "main.839a2b1c.js.map": "/react-test/static/js/main.839a2b1c.js.map",
+    "507.90f18315.chunk.js.map": "/react-test/static/js/507.90f18315.chunk.js.map",
+    "690.2e67fa1b.chunk.js.map": "/react-test/static/js/690.2e67fa1b.chunk.js.map",
+    "288.71728584.chunk.js.map": "/react-test/static/js/288.71728584.chunk.js.map",
+    "575.c4dca549.chunk.js.map": "/react-test/static/js/575.c4dca549.chunk.js.map",
+    "324.e421c0fb.chunk.js.map": "/react-test/static/js/324.e421c0fb.chunk.js.map",
+    "768.4ba1c378.chunk.js.map": "/react-test/static/js/768.4ba1c378.chunk.js.map",
+    "360.0c09ec28.chunk.js.map": "/react-test/static/js/360.0c09ec28.chunk.js.map",
+    "274.6b598e7e.chunk.js.map": "/react-test/static/js/274.6b598e7e.chunk.js.map",
+    "581.5962cb1f.chunk.js.map": "/react-test/static/js/581.5962cb1f.chunk.js.map",
+    "393.32318207.chunk.js.map": "/react-test/static/js/393.32318207.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea5a282a.css",
+    "static/js/main.839a2b1c.js"
+  ]
+}
